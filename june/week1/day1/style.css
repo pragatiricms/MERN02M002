@@ -1,0 +1,47 @@
+body{
+    background-color: lavender;
+}
+
+#head2{
+    background-color: aqua;
+}
+
+.head3{
+    background-color: brown;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    background-image: url("https://images.unsplash.com/photo-1586082207282-3dcb61d25ebd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D");
+}    
+div:hover{
+    background-color: antiquewhite;
+}
+div:active{
+    background-color: chartreuse;
+}
+input:focus{
+    background-color: deeppink;
+}
+
+ul{
+    list-style: square;
+}
+ul li:nth-child(2){
+    background-color: darkgreen;
+}
+ul li:nth-child(even){
+    background-color: fuchsia;
+}
+ul li:nth-child(n+3){
+    background-color: darkturquoise;
+}
+p{
+    color: darkseagreen;
+}
