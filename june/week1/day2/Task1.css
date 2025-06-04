@@ -97,7 +97,7 @@ input::placeholder {
   text-decoration: underline;
 }
 
-/* Footer */
+/* Footer
 footer {
   position: fixed;
   bottom: 10px;
@@ -109,4 +109,4 @@ footer {
 footer span {
   color: red;
   font-weight: 600;
-}
+} */
