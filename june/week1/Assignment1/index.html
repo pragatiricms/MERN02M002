@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex UI Section</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white font-sans text-gray-800">
+
+    <!-- Navbar -->
+    <!-- <header class="flex justify-between items-center px-10 py-6">
+      <h1 class="text-2xl font-bold text-green-600">Flex</h1>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#">Product</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <a href="#" class="text-gray-500">Log In</a>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded">Sign Up</a>
+      </nav>
+    </header> -->
+    <header class="flex items-center justify-between px-10 py-6">
+  <!-- Logo -->
+  <div class="flex-1">
+    <h1 class="text-2xl font-bold text-green-600">Flex</h1>
+  </div>
+
+  <!-- Center Navigation -->
+  <nav class="flex-1 text-center space-x-6 text-sm font-medium">
+    <a href="#">Product</a>
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Resources</a>
+  </nav>
+
+  <!-- Right Side Buttons -->
+  <div class="flex-1 text-right space-x-4">
+    <a href="#" class="text-gray-500">Log In</a>
+    <a href="#" class="bg-green-500 text-white px-4 py-2 rounded">Sign Up</a>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gray-50 px-10 py-20 flex justify-center gap-12 px-6 py-10">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <!-- Left Text -->
+        <div class="w-full max-w-md">
+          <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full">HEADER</span>
+          <h2 class="text-4xl font-bold mt-4 mb-4 leading-tight">
+            A small business <br /> is only as good <br /> as its tools.
+          </h2>
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <!-- <ul class="text-gray-700 space-y-2 list-disc list-inside list-none">
+            <li>Mauris pellentesque congue libero nec</li>
+            <li>Suspendisse mollis tincidunt</li>
+            <li>Praesent varius justo vel justo pulvinar</li>
+          </ul> -->
+          <ul class="text-gray-700 space-y-2 list-none">
+            <li class="flex items-start gap-2">
+                <img src="images/Checkbox.svg" alt="icon" class="w-4 h-4 mt-1" />
+                    Mauris pellentesque congue libero nec
+            </li>
+            <li class="flex items-start gap-2">
+               <img src="images/Checkbox.svg" alt="icon" class="w-4 h-4 mt-1" />
+                   Suspendisse mollis tincidunt
+            </li>
+            <li class="flex items-start gap-2">
+              <img src="images/Checkbox.svg" alt="icon" class="w-4 h-4 mt-1" />
+                Praesent varius justo vel justo pulvinar
+           </li>
+          </ul>
+
+
+        </div>
+
+        <!-- Right Form --> 
+        <div class="bg-white rounded-lg shadow-lg p-8 max-w-sm w-full max-w-sm">
+          <div class="w-12 h-12 mx-auto -mt-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+            <img src="images/Frame 3.svg" alt="">
+          </div>
+          <h3 class="text-center text-lg font-semibold mt-4 mb-1">Join our community</h3>
+          <p class="text-center text-sm text-gray-500 mb-6">Start your free trial</p>
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="w-full px-4 py-2 border rounded mb-4"
+          />
+          <button class="w-full bg-green-500 text-white py-2 rounded mb-4">Get Started</button>
+          <div class="flex items-center gap-2 mb-4">
+            <hr class="flex-grow border-gray-300" />
+            <span class="text-gray-400 text-sm">OR</span>
+            <hr class="flex-grow border-gray-300" />
+          </div>
+          <button class="w-full border py-2 rounded flex items-center justify-center gap-2 mb-2">
+            <img src="https://img.icons8.com/color/16/google-logo.png" />
+            Sign in with Google
+          </button>
+          <button class="w-full border py-2 rounded flex items-center justify-center gap-2 mb-2">
+            <img src="https://img.icons8.com/ios-filled/16/mac-os.png" />
+            Sign in with Apple
+          </button>
+          <p class="text-center text-sm text-gray-600 mt-2">
+            Already have an account?
+            <a href="#" class="text-green-600 font-medium">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="bg-white rounded-lg shadow-lg p-6 max-w-sm mx-auto"> 
+  <div class="w-10 h-10 mx-auto -mt-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+    <img src="Frame 3.svg" alt="">
+  </div>
+  <h3 class="text-center text-base font-semibold mt-3 mb-1">Join our community</h3>
+  <p class="text-center text-sm text-gray-500 mb-4">Start your free trial</p>
+
+  <input
+    type="email"
+    placeholder="Enter your email address"
+    class="w-full px-3 py-2 border rounded mb-3"
+  />
+
+  <button class="w-full bg-green-500 text-white py-2 rounded mb-3 text-sm">Get Started</button>
+
+  <div class="flex items-center gap-2 mb-3">
+    <hr class="flex-grow border-gray-300" />
+    <span class="text-gray-400 text-xs">OR</span>
+    <hr class="flex-grow border-gray-300" />
+  </div>
+
+  <button class="w-full border py-2 rounded flex items-center justify-center gap-2 mb-2 text-sm">
+    <img src="https://img.icons8.com/color/16/google-logo.png" />
+    Sign in with Google
+  </button>
+
+  <button class="w-full border py-2 rounded flex items-center justify-center gap-2 mb-2 text-sm">
+    <img src="https://img.icons8.com/ios-filled/16/mac-os.png" />
+    Sign in with Apple
+  </button>
+
+  <p class="text-center text-xs text-gray-600 mt-2">
+    Already have an account?
+    <a href="#" class="text-green-600 font-medium">Sign in</a>s
+  </p>
+</div> -->
+
+
+    <!-- Stats Section -->
+    <section class="bg-white py-16 px-10 bg-grid">
+      <div class="text-center">
+        <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full">NUMBER</span>
+        <h2 class="text-2xl font-bold mb-4">We believe in the power of data</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+          Flex is the only business platform that lets you run your business on one platform,
+          seamlessly across all digital channels.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10 font-semibold text-xl">
+          <div><p>235.000</p><span class="text-sm text-gray-500">Projects completed</span></div>
+          <div><p>$10m</p><span class="text-sm text-gray-500">APR</span></div>
+          <div><p>+50.000</p><span class="text-sm text-gray-500">Hours Saved Annually</span></div>
+          <div><p>3.500</p><span class="text-sm text-gray-500">Unique Users</span></div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Feature Section -->
+<section class="bg-white px-6 py-20">
+  <div class="max-w-6xl mx-auto text-center">
+    <!-- Header -->
+    <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full">Features</span>
+    <h2 class="text-3xl font-bold mb-4">Gain more insight into how people use your</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+      With our integrated CRM, project management, collaboration and invoicing capabilities,
+      you can manage every aspect of your business in one secure platform.
+    </p>
+
+    <!-- Image -->
+    <div class="mb-16">
+      <img src="images/Rectangle 1 (1).png"
+           alt="Notebook Planner"
+           class="mx-auto max-w-md rounded-xl shadow-lg" />
+    </div>
+
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+      <!-- Feature 1 -->
+      <div class="flex flex-col items-center text-center space-y-4">
+        <div class="bg-green-500 p-3 rounded-md">
+          <img src="images/Frame 18.svg" class="w-6 h-6" />
+        </div>
+        <h4 class="text-lg font-semibold">Measure your performance</h4>
+        <p class="text-sm text-gray-600 max-w-xs">
+          Stay connected with your team and make quick decisions wherever you are.
+        </p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="flex flex-col items-center text-center space-y-4">
+        <div class="bg-green-500 p-3 rounded-md">
+          <img src="images/Frame 18 (1).svg" class="w-6 h-6" />
+        </div>
+        <h4 class="text-lg font-semibold">Custom analytics</h4>
+        <p class="text-sm text-gray-600 max-w-xs">
+          Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.
+        </p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="flex flex-col items-center text-center space-y-4">
+        <div class="bg-green-500 p-3 rounded-md">
+          <img src="images/Frame 18 (2).svg" class="w-6 h-6" />
+        </div>
+        <h4 class="text-lg font-semibold">Team Management</h4>
+        <p class="text-sm text-gray-600 max-w-xs">
+          Our calendar lets you know what is happening with customer and projects so you stay in control.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white px-6 py-20">
+  <div class="max-w-7xl mx-auto text-center">
+    <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full">PRICING</span>
+    <h2 class="text-3xl font-bold mb-2">Flexible pricing plan for your startup</h2>
+    <p class="text-gray-600 mb-12">Pricing that scales with your business immediately.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Basic Plan -->
+      <div class="border rounded-xl p-6 shadow-sm bg-gray-50">
+        <p class="text-green-500 font-semibold mb-2">Basic Plan</p>
+        <h3 class="text-2xl font-bold mb-1">$10<span class="text-base font-medium">/mth</span></h3>
+        <p class="text-sm text-gray-500 mb-4">Billed annually</p>
+        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+          <li>✔ Complete documentation</li>
+          <li>✔ Working materials in Figma</li>
+          <li>✔ 100GB cloud storage</li>
+          <li>✔ 500 team members</li>
+        </ul>
+        <button class="bg-green-500 text-white w-full py-2 rounded font-medium">Request a Demo</button>
+      </div>
+      <!-- Freelancer Plan -->
+      <div class="border rounded-xl p-6 shadow-sm bg-gray-50">
+        <p class="text-green-500 font-semibold mb-2">Freelancer Plan</p>
+        <h3 class="text-2xl font-bold mb-1">$99<span class="text-base font-medium">/mth</span></h3>
+        <p class="text-sm text-gray-500 mb-4">Billed annually</p>
+        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+          <li>✔ Complete documentation</li>
+          <li>✔ Working materials in Figma</li>
+          <li>✔ 100GB cloud storage</li>
+          <li>✔ 500 team members</li>
+        </ul>
+        <button class="bg-green-500 text-white w-full py-2 rounded font-medium">Request a Demo</button>
+      </div>
+      <!-- Enterprise Plan -->
+      <div class="border rounded-xl p-6 shadow-sm bg-gray-50">
+        <p class="text-green-500 font-semibold mb-2">Enterprise Plan</p>
+        <h3 class="text-2xl font-bold mb-1">$799<span class="text-base font-medium">/year</span></h3>
+        <p class="text-sm text-gray-500 mb-4">Billed annually</p>
+        <ul class="text-sm text-gray-600 space-y-2 mb-6">
+          <li>✔ Complete documentation</li>
+          <li>✔ Working materials in Figma</li>
+          <li>✔ 100GB cloud storage</li>
+          <li>✔ 500 team members</li>
+        </ul>
+        <button class="bg-green-500 text-white w-full py-2 rounded font-medium">Request a Demo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="bg-gray-900 text-white px-6 py-16">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-bold mb-3">The fastest way from idea to live site. Period.</h3>
+    <p class="text-gray-300 mb-6">Flex is a Small SaaS Business. Flex isn't a traditional company.</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <button class="bg-green-500 text-white px-6 py-2 rounded font-medium">Get Started</button>
+      <button class="bg-white text-gray-900 px-6 py-2 rounded font-medium">Learn More</button>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="bg-white px-6 py-20">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+      <div>
+        <span class="text-xs text-green-600 font-semibold bg-green-100 px-2 py-1 rounded-full">HOW IT WORKS</span>
+        <h2 class="text-3xl font-bold mb-4">Gain more insight into how people use your</h2>
+        <p class="text-gray-600">
+          With our integrated CRM, project management, collaboration and invoicing capabilities,
+          you can manage your business in one secure platform.
+        </p>
+      </div>
+      <div class="relative">
+        <img src="images/Rectangle 1.png" class="rounded-xl shadow-lg" alt="Presentation" />
+        <div class="absolute inset-0 flex justify-center items-center">
+          <button class="bg-green-500 text-white text-xl font-bold w-12 h-12 rounded-full shadow-md"><img src="images/Play.svg" class="rounded-xl shadow-lg" alt="Presentation" /></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid of 6 Features -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">1</div>
+        <h4 class="text-lg font-semibold mt-2">Measure your performance</h4>
+        <p class="text-sm text-gray-600 mt-1">Stay connected with your team and make quick decisions wherever you are.</p>
+      </div>
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">2</div>
+        <h4 class="text-lg font-semibold mt-2">Custom analytics</h4>
+        <p class="text-sm text-gray-600 mt-1">Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.</p>
+      </div>
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">3</div>
+        <h4 class="text-lg font-semibold mt-2">Team Management</h4>
+        <p class="text-sm text-gray-600 mt-1">Our calendar lets you know what is happening with customer and projects.</p>
+      </div>
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">4</div>
+        <h4 class="text-lg font-semibold mt-2">Build your website</h4>
+        <p class="text-sm text-gray-600 mt-1">A tool that lets you build a dream website even if you know nothing about web design or programming.</p>
+      </div>
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">5</div>
+        <h4 class="text-lg font-semibold mt-2">Connect multiple apps</h4>
+        <p class="text-sm text-gray-600 mt-1">The first business platform to bring together all of your products from one place.</p>
+      </div>
+      <div>
+        <div class="bg-green-500 text-white w-8 h-8 mx-auto rounded-full flex items-center justify-center font-semibold">6</div>
+        <h4 class="text-lg font-semibold mt-2">Easy setup</h4>
+        <p class="text-sm text-gray-600 mt-1">End to End Business Platform, Sales Management, Marketing Automation, Help Desk</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Decorative Wave Divider + Footer Background -->
+<div class="relative bg-gray-50">
+  <svg class="absolute -top-8 left-0 w-full h-12 text-white" viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <path fill="#ffffff" d="M0,224L1440,96L1440,320L0,320Z"></path>
+  </svg>
+
+  <!-- Footer Section -->
+  <footer class="relative z-10 px-6 py-12 text-sm bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-repeat">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div>
+        <h3 class="text-green-600 font-bold text-xl mb-2">Flex</h3>
+        <p class="text-gray-600">Launch your own Software As A Service Application with Flex Solutions.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-gray-800 mb-2">Product</h4>
+        <ul class="space-y-1 text-gray-600">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-gray-800 mb-2">Remaining</h4>
+        <ul class="space-y-1 text-gray-600">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-gray-800 mb-2">Newsletter</h4>
+        <form class="flex">
+          <input type="email" placeholder="pat@shuffle.dev" class="w-full px-3 py-2 border border-gray-300 rounded-l-md focus:outline-none" />
+          <button type="submit" class="bg-green-500 text-white px-4 rounded-r-md">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="text-center text-gray-400 mt-10">© 2021 Flex. All rights reserved.</div>
+  </footer>
+</div>
+
+    
+  </body>
+</html>
