@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HubSpot Navbar Clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
       body {
@@ -173,29 +172,29 @@
 <!-- Logo Section with Gap from Previous -->
 <section class="bg-white py-16 mt-14">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <h2 class="text-base md:text-lg font-semibold text-gray-800 mb-10">
+    <h2 class="text-base md:text-md font-semibold text-gray-800 mb-10">
   <span class="text-black font-bold">258,000+ customers</span> in over 
   <span class="text-black font-bold">135 countries</span> grow their businesses with HubSpot
 </h2>
 
-<div class="flex items-center justify-center gap-6 flex-wrap mt-2">
+ <div class="flex items-center justify-center gap-6 flex-wrap mt-2">
   <!-- Left Arrow -->
   <button class="p-2 rounded-full transition duration-300 hover:bg-gray-200">
-  <span class="text-gray-800 text-2xl">&#10094;</span>
-</button>
+   <span class="text-gray-800 text-2xl">&#10094;</span>
+  </button>
 
  <!-- Logos -->
-<img src="images/reddit.jpeg" alt="Reddit" class="h-14 w-auto object-contain">
-<img src="images/ebay.png" alt="eBay" class="h-14 w-auto object-contain">
-<img src="images/doordash.png" alt="Doordash" class="h-12 w-auto object-contain">
-<img src="images/Tripadvisor.png" alt="Tripadvisor" class="h-12 w-auto object-contain">
-<img src="images/Eventbrite.png" alt="Eventbrite" class="h-12 w-auto object-contain">
+  <img src="images/reddit.jpeg" alt="Reddit" class="h-14 w-auto object-contain">
+  <img src="images/ebay.png" alt="eBay" class="h-14 w-auto object-contain">
+  <img src="images/doordash.png" alt="Doordash" class="h-12 w-auto object-contain">
+  <img src="images/Tripadvisor.png" alt="Tripadvisor" class="h-12 w-auto object-contain">
+  <img src="images/Eventbrite.png" alt="Eventbrite" class="h-12 w-auto object-contain">
 
   <!-- Right Arrow -->
   <button class="p-6 rounded-full transition duration-300 hover:bg-gray-200">
-  <span class="text-gray-800 text-2xl">&#10095;</span>
-</button>
-</div>
+   <span class="text-gray-800 text-2xl">&#10095;</span>
+  </button>
+ </div>
 
 
     
@@ -206,10 +205,10 @@
 
 
  <!-- Breeze Agents Section -->
-<section class="bg-[#fef3ec] py-16 px-4">
+<section class="bg-[#fef3ec] py-16 px-4 text-center">
   <div class="max-w-7xl mx-auto text-center">
     <!-- Title -->
-    <h2 class="text-3xl font-bold text-[#2e2e2e] mb-2">
+    <h2 class="text-2xl font-bold text-[#2e2e2e] mb-2">
       Introducing Breeze Agents — Your AI Growth Team
     </h2>
 
@@ -218,53 +217,518 @@
       HubSpot’s AI-powered agents are digital workers that extend your team to scale support, automate prospecting, and create content faster.
     </p>
 
-    <!-- Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-center">
-      <!-- Card 1 -->
-      <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[450px] w-full max-w-sm mx-auto">
-        <img src="https://via.placeholder.com/400x180.png?text=Customer+Agent" alt="Customer Agent" class="w-full h-[180px] object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-[#2e2e2e] mb-2">Customer Agent</h3>
-          <p class="text-sm text-[#33475b] mb-4">
-            Scale support and resolve half of customer inquiries 24/7.
-          </p>
-          <a href="#" class="text-[#0059b2] text-sm font-medium underline hover:text-[#004494]">
-            Learn more about customer agent
-          </a>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[450px] w-full max-w-sm mx-auto">
-        <img src="https://via.placeholder.com/400x180.png?text=Prospecting+Agent" alt="Prospecting Agent" class="w-full h-[180px] object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-[#2e2e2e] mb-2">Prospecting Agent (Beta)</h3>
-          <p class="text-sm text-[#33475b] mb-4">
-            Instantly research, personalize, and execute sales outreach at scale.
-          </p>
-          <a href="#" class="text-[#0059b2] text-sm font-medium underline hover:text-[#004494]">
-            Learn more about prospecting agent
-          </a>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[450px] w-full max-w-sm mx-auto">
-        <img src="https://via.placeholder.com/400x180.png?text=Content+Agent" alt="Content Agent" class="w-full h-[180px] object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-[#2e2e2e] mb-2">Content Agent (Beta)</h3>
-          <p class="text-sm text-[#33475b] mb-4">
-            Create conversion-optimized and on-brand content in minutes.
-          </p>
-          <a href="#" class="text-[#0059b2] text-sm font-medium underline hover:text-[#004494]">
-            Learn more about content agent
-          </a>
-        </div>
-      </div>
+  <!-- Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-2 justify-center">
+  <!-- Card 1 -->
+  <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[350px] w-full max-w-[280px] mx-auto">
+    <img src="images/Customer Agent.webp" alt="Customer Agent" class="w-full h-[160px] object-cover">
+    <div class="p-4">
+      <h3 class="text-lg font-bold text-[#2e2e2e] mb-1">Customer Agent</h3>
+      <p class="text-xs text-[#33475b] mb-3">
+        Scale support and resolve half of customer inquiries 24/7.
+      </p>
+      <a href="#" class="text-[#0059b2] text-xs font-medium underline hover:text-[#004494]">
+        Learn more about customer agent
+      </a>
     </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[350px] w-full max-w-[280px] mx-auto">
+    <img src="images/Prospecting Agent.webp" alt="Prospecting Agent" class="w-full h-[160px] object-cover">
+    <div class="p-4">
+      <h3 class="text-lg font-bold text-[#2e2e2e] mb-1">Prospecting Agent (Beta)</h3>
+      <p class="text-xs text-[#33475b] mb-3">
+        Instantly research, personalize, and execute sales outreach at scale.
+      </p>
+      <a href="#" class="text-[#0059b2] text-xs font-medium underline hover:text-[#004494]">
+        Learn more about prospecting agent
+      </a>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="bg-white rounded-xl shadow-sm overflow-hidden text-left h-[350px] w-full max-w-[280px] mx-auto">
+    <img src="images/Content.webp" alt="Content Agent" class="w-full h-[160px] object-cover">
+    <div class="p-4">
+      <h3 class="text-lg font-bold text-[#2e2e2e] mb-1">Content Agent (Beta)</h3>
+      <p class="text-xs text-[#33475b] mb-3">
+        Create conversion-optimized and on-brand content in minutes.
+      </p>
+      <a href="#" class="text-[#0059b2] text-xs font-medium underline hover:text-[#004494]">
+        Learn more about content agent
+      </a>
+    </div>
+  </div>
+</div>
+
   </div>
 </section>
 
+ 
+<!-- What is HubSpot Section -->
+<section class="bg-white py-16 px-4 mt-10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-x-16">
 
-  </body>
+      <!-- Image Block - on the left -->
+      <div class="relative w-full max-w-lg ml-16">
+        <img src="images/Video.webp" alt="How HubSpot Works" class="rounded-lg shadow-md w-full">
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="bg-white bg-opacity-90 rounded-full p-4 hover:bg-opacity-100 transition">
+            <svg class="h-10 w-10 text-[#ff5c35]" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text Content - on the right -->
+      <div class="max-w-xl text-left -ml-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#2e2e2e] mb-4">What is HubSpot?</h2>
+        <p class="text-[#33475b] text-base mb-4 leading-relaxed">
+          HubSpot is an AI-powered customer platform with all the software, integrations, and resources you need to connect your marketing, sales, and customer service. HubSpot’s connected platform enables you to grow your business faster by focusing on what matters most: your customers.
+        </p>
+        <p class="text-[#33475b] text-base mb-6 leading-relaxed">
+          Get a demo to learn about our premium software, or get started with our full suite of free tools and upgrade as you grow.
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex gap-4 flex-wrap">
+          <a href="#" class="bg-[#ff5c35] text-white font-semibold text-sm px-6 py-3 rounded-md hover:bg-[#e14b28] transition">
+            Get a demo
+          </a>
+          <a href="#" class="border border-[#ff5c35] text-[#ff5c35] font-semibold text-sm px-6 py-3 rounded-md hover:bg-[#ffe7e1] transition">
+            Get started free
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+<section class="bg-[#fff4ed] py-16 text-center">
+  <!-- Centered + Resized Image -->
+  <div class="max-w-6xl mx-auto px-4">
+    <img src="images/commerce hub.webp" alt="HubSpot Platform"
+         class="mx-auto max-w-[850px] w-full h-auto" />
+  </div>
+
+  <!-- Heading -->
+  <h3 class="mt-10 text-xl md:text-3xl font-bold text-[#2e2e2e] leading-snug">
+    Your whole front office. One customer platform.
+  </h3>
+</section>
+
+<!-- Paragraph -->
+  <p class="text-[#2e2e2e] text-base md:text-lg max-w-3xl mx-auto leading-relaxed mb-8">
+    HubSpot brings your marketing, sales, and service teams together on the same AI-powered customer platform. 
+    It’s easy to use, provides value fast, and gives all teams a unified view of the customer at every stage in 
+    their journey. Each product in the platform is powerful on its own, but the real magic happens when you use 
+    them together.
+  </p>
+
+  <!-- Buttons -->
+  <div class="flex justify-center gap-4 mb-12 flex-wrap">
+    <button class="bg-[#ff5c35] text-white font-semibold py-3 px-6 rounded-md hover:bg-[#e44d27] transition">
+      Get a demo
+    </button>
+    <button class="border-2 border-[#ff5c35] text-[#ff5c35] font-semibold py-3 px-6 rounded-md hover:bg-[#ffe8e0] transition">
+      Get started free
+    </button>
+  </div>
+
+ <div class="bg-[#fff2e4] py-16 px-4">
+  <div class="max-w-[1000px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-3 justify-center">
+
+    <!-- Marketing Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-orange-500 text-xl">⚡</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">Marketing Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        AI-powered marketing software that helps you generate leads and automate marketing.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Breeze social media agent</li>
+        <li>✅ Marketing automation</li>
+        <li>✅ Analytics</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+    <!-- Sales Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-blue-500 text-xl">💼</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">Sales Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        AI-powered sales CRM to help teams close more deals, faster.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Prospecting workspace</li>
+        <li>✅ Sequences</li>
+        <li>✅ Lead management</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+    <!-- Service Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-green-500 text-xl">🛠️</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">Service Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        Software to help you connect with and retain customers.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Help desk</li>
+        <li>✅ Knowledge base</li>
+        <li>✅ Customer portal</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+    <!-- CMS Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-purple-500 text-xl">📝</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">CMS Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        A powerful, flexible content management system for marketers and developers.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Drag-and-drop editor</li>
+        <li>✅ SEO recommendations</li>
+        <li>✅ Website themes</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+    <!-- Operations Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-yellow-500 text-xl">🔧</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">Operations Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        Streamline your process and keep your tools and data connected.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Data sync</li>
+        <li>✅ Workflow automation</li>
+        <li>✅ Custom properties</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+    <!-- Commerce Hub -->
+    <div class="bg-white rounded-xl p-6 shadow-sm w-[260px] h-[400px] transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-red-500 text-xl">💳</span>
+        <h4 class="text-[#2e2e2e] font-bold text-lg">Commerce Hub<sup>®</sup></h4>
+      </div>
+      <p class="text-sm text-[#4b4b4b] mb-4">
+        Manage your online payments, quotes, and invoices all in one place.
+      </p>
+      <hr class="my-4" />
+      <h5 class="font-semibold text-sm mb-2">Popular Features</h5>
+      <ul class="text-sm text-[#2e2e2e] space-y-1">
+        <li>✅ Payment processing</li>
+        <li>✅ Quote management</li>
+        <li>✅ Invoicing tools</li>
+      </ul>
+      <button class="bg-[#ff5c35] text-white mt-6 py-2 px-4 rounded-md font-semibold text-sm w-full">
+        Learn more
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- Blue Strip -->
+<div class="bg-[#b9f2f0] py-6 px-4 flex flex-col items-center text-center">
+  <h2 class="text-[#33475b] font-semibold text-base mb-2">
+    Meet Breeze — The complete AI solution for your business.
+  </h2>
+  <p class="text-[#33475b] text-sm max-w-xl">
+    Use Breeze Copilot to assist with tasks, Breeze Agents to automate your work, Breeze Intelligence to enrich your data, 
+    and a growing list of Breeze features to help you get work done faster.
+  </p>
+  <button class="mt-4 bg-[#33475b] hover:bg-[#2a3d4d] text-white font-medium py-1 px-4 rounded text-sm">
+    Learn more
+  </button>
+</div>
+
+
+  <!-- What's New Section -->
+  <div class="max-w-7xl mx-auto py-12 px-4 md:px-8">
+    <h2 class="text-2xl font-semibold text-center text-[#33475b] mb-8">What’s New at HubSpot</h2>
+
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <!-- Image with play icon -->
+      <div class="relative w-[350px] md:w-[400px] ml-4 md:ml-8">
+  <img src="images/customer-agent-1.webp" alt="Video thumbnail" class="w-full h-auto rounded-md shadow-md" />
+
+  <!-- Overlay Play Button -->
+  <div class="absolute inset-0 flex items-center justify-center">
+    <button class="bg-white rounded-full p-3 shadow-lg text-xl">
+      ▶
+    </button>
+  </div>
+</div>
+
+
+ <!-- Content -->
+ <div>
+    <h3 class="text-xl font-bold text-[#33475b] mb-2">Scale up without slowing down.</h3>
+      <p class="text-sm text-[#33475b] mb-4">
+        Your teams spend hours answering the same questions. Why not let 
+        <a href="#" class="text-[#00a4bd] font-semibold underline">Customer Agent</a> do it instead? 
+        Easily close tickets 24/7 with information pulled straight from your knowledge base, so your customers get help while you get time back for more complex tasks.
+      </p>
+      <button class="bg-[#ff5c35] hover:bg-[#e14c27] text-white font-semibold py-2 px-5 rounded text-sm">
+          Learn more
+      </button>
+    </div>
+  </div>
+</div>
+
+<section class="bg-[#1c2e3d] text-white py-12 px-4 text-center">
+  <h2 class="text-2xl md:text-3xl font-bold mb-10">
+    HubSpot customer’s results after 1 year:
+  </h2>
+
+  <!-- Stat Cards -->
+  <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
+    <!-- Card 1 -->
+    <div class="bg-white text-[#1c2e3d] rounded-lg px-4 py-5 w-64 shadow-md">
+      <img src="images/stat1.svg" alt="Web Traffic" class="mx-auto mb-2 w-14 h-14" />
+      <h3 class="text-xl font-bold">114%</h3>
+      <p class="text-sm mt-1">more web traffic</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white text-[#1c2e3d] rounded-lg px-4 py-5 w-64 shadow-md">
+      <img src="images/stat2.svg" alt="More Deals" class="mx-auto mb-2 w-14 h-14" />
+      <h3 class="text-xl font-bold">55%</h3>
+      <p class="text-sm mt-1">more deals</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white text-[#1c2e3d] rounded-lg px-4 py-5 w-64 shadow-md">
+      <img src="images/stat3.svg" alt="Tickets Resolved" class="mx-auto mb-2 w-14 h-14" />
+      <h3 class="text-xl font-bold">43%</h3>
+      <p class="text-sm mt-1">more tickets resolved</p>
+    </div>
+  </div>
+
+  <p class="text-sm mb-4">
+    HubSpot customers see improvement across their customer journey. What could your ROI be?
+  </p>
+  <button class="bg-white text-[#1c2e3d] font-semibold px-5 py-2 rounded shadow hover:bg-gray-100 transition">
+    See ROI report
+  </button>
+</section>
+
+
+
+<section class="bg-[#f9f9f9] py-16 px-6 lg:px-20 flex flex-col md:flex-row items-center justify-center gap-8">
+
+    <!-- Left Card -->
+    <div class="bg-white shadow-sm rounded-lg p-6 w-[350px] h-[320px] flex flex-col items-center justify-center">
+      <div class="flex justify-center items-center flex-wrap gap-4 mb-4">
+        <img src="images/gmail-icon-1.svg" class="w-10 h-10" alt="Gmail">
+        <img src="images/shopify-icon-1.svg" class="w-10 h-10" alt="Shopify">
+        <img src="images/mailchimp-icon-1.svg" class="w-10 h-10" alt="Mailchimp">
+        <img src="images/zapier-icon-1.svg" class="w-10 h-10" alt="Zapier">
+        <img src="images/google-ads-icon-1.svg" class="w-10 h-10" alt="Google Ads">
+        <img src="images/slack-icon-1.svg" class="w-10 h-10" alt="Slack">
+      </div>
+      <h2 class="text-base font-medium text-center">1,700+ ways to connect your tools</h2>
+      <a href="#" class="text-[#1a7ef2] text-sm font-medium hover:underline mt-1">View all apps</a>
+    </div>
+
+    <!-- Right Card -->
+    <div class="bg-white shadow-sm rounded-lg p-6 w-[350px] h-[320px] flex flex-col items-center justify-center">
+      <div class="grid grid-cols-3 gap-4 justify-items-center mb-4">
+        <img src="images/badge-leader.webp" alt="Badge 1" class="w-14 h-14">
+        <img src="images/bagde1.webp" alt="Badge 2" class="w-14 h-14">
+        <img src="images/badge2.webp" alt="Badge 3" class="w-14 h-14">
+        <img src="images/badge3.webp" alt="Badge 4" class="w-14 h-14">
+        <img src="images/badge4.webp" alt="Badge 5" class="w-14 h-14">
+        <img src="images/badge5.webp" alt="Badge 6" class="w-14 h-14">
+      </div>
+      <h2 class="text-base font-medium text-center">Voted #1 in 571 Reports</h2>
+      <a href="#" class="text-[#1a7ef2] text-sm font-medium hover:underline mt-1">Learn more</a>
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- Call to Action Section -->
+  <!-- Call to Action Section -->
+<section class="bg-white py-16 px-6 lg:px-24 flex flex-col md:flex-row items-center justify-center gap-x-8">
+  <!-- Text Section -->
+  <div class="mb-4 md:mb-0">
+    <h2 class="text-2xl font-medium mb-6">Grow better with HubSpot today</h2>
+    <div class="flex gap-4">
+      <button class="bg-[#ff5c35] text-white px-5 py-3 text-sm font-medium rounded border border-transparent hover:bg-[#e04a26] transition">Get a demo</button>
+      <button class="bg-transparent text-[#ff5c35] px-5 py-3 text-sm font-medium rounded border border-[#ff5c35] hover:bg-[#fff1ed] transition">Get started free</button>
+    </div>
+  </div>
+
+  <!-- Image Section -->
+  <div class="relative w-72 h-72 bg-white rounded-full flex items-center justify-center">
+  <img 
+    src="images/cta-content-block.webp" 
+    alt="CTA Image" 
+    class="w-full h-full object-contain rounded-full"
+  />
+  <div class="absolute top-4 left-0 w-4 h-4 bg-[#ff5c35] rounded-full"></div>
+</div>
+
+
+</section>
+
+
+  <footer class="bg-[#1f2c3d] text-white text-sm px-6 md:px-20 pt-16 pb-10">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 max-w-7xl mx-auto">
+    
+    <!-- Column 1: Popular Features -->
+    <div>
+      <h3 class="font-semibold mb-4">Popular Features</h3>
+      <ul class="space-y-2 text-[#d1dbe8]">
+        <li>All Products and Features</li>
+        <li>Free Meeting Scheduler App</li>
+        <li>Breeze AI Tools</li>
+        <li>Email Tracking Software</li>
+        <li>AI Content Writer</li>
+        <li>AI Website Generator</li>
+        <li>Email Marketing Software</li>
+        <li>Lead Management Software</li>
+        <li>AI Email Writer</li>
+      </ul>
+    </div>
+
+    <!-- Column 2: Free Tools -->
+    <div>
+      <h3 class="font-semibold mb-4">Free Tools</h3>
+      <ul class="space-y-2 text-[#d1dbe8]">
+        <li>See All Free Business Tools</li>
+        <li>AI Search Grader</li>
+        <li>Clipt Creator</li>
+        <li>Website Grader</li>
+        <li>Make My Persona</li>
+        <li>Email Signature Generator</li>
+        <li>Brand Kit Generator</li>
+        <li>Blog Ideas Generator</li>
+        <li>Invoice Generator</li>
+        <li>Free Business Templates</li>
+        <li>Guide Creator</li>
+        <li>Software Comparisons</li>
+        <li>Library</li>
+        <li>Template Marketplace</li>
+        <li>Campaign Assistant</li>
+        <li>Landing Page Creator</li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Company -->
+    <div>
+      <h3 class="font-semibold mb-4">Company</h3>
+      <ul class="space-y-2 text-[#d1dbe8]">
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Management Team</li>
+        <li>Board of Directors</li>
+        <li>Investor Relations</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Customers -->
+    <div>
+      <h3 class="font-semibold mb-4">Customers</h3>
+      <ul class="space-y-2 text-[#d1dbe8]">
+        <li>Customer Support</li>
+        <li>Join a Local User Group</li>
+      </ul>
+    </div>
+
+    <!-- Column 5: Partners -->
+    <div>
+      <h3 class="font-semibold mb-4">Partners</h3>
+      <ul class="space-y-2 text-[#d1dbe8]">
+        <li>All Partner Programs</li>
+        <li>Solutions Partner Program</li>
+        <li>App Partner Program</li>
+        <li>HubSpot for Startups</li>
+        <li>Affiliate Program</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="border-t border-white/10 my-10 max-w-6xl mx-auto"></div>
+
+  <!-- Social & Legal -->
+  <div class="text-center space-y-4">
+    <!-- Social Icons -->
+    <div class="flex justify-center gap-5 text-[#d1dbe8] text-xl">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-x-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-medium-m"></i>
+      <i class="fab fa-tiktok"></i>
+    </div>
+
+    <!-- Logo and Copyright -->
+    <div class="text-sm text-[#d1dbe8]">
+      <img src="images/download.svg" alt="HubSpot" class="mx-auto h-6 mb-2">
+      <p>Copyright © 2025 HubSpot, Inc.</p>
+    </div>
+
+    <!-- Links -->
+    <div class="flex justify-center flex-wrap gap-4 text-xs text-[#d1dbe8] mt-4">
+      <a href="#" class="hover:underline">Legal Stuff</a>
+      <a href="#" class="hover:underline">Privacy Policy</a>
+      <a href="#" class="hover:underline">Security</a>
+      <a href="#" class="hover:underline">Website Accessibility</a>
+      <a href="#" class="hover:underline">Manage Cookies</a>
+    </div>
+  </div>
+</footer>
+
+</body>
 </html>
